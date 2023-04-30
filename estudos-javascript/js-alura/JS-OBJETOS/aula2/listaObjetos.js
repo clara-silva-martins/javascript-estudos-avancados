@@ -21,8 +21,10 @@ cliente.enderecos.push({
     rua: "São José",
     numero: 2,
     apartamento: false,
-    complemento: "ap 501"
-});
+    complemento: "ap 501",
+},);
+
+//Como adicionar mais de um endereço?
 
 //Agora é possível usar qualquer método de array, nesse caso o filter onde está filtrando o endereço e apartamento que é true
 
@@ -30,6 +32,6 @@ const listaApenasApartamentos = cliente.enderecos.filter(
     (endereco) =>  endereco.apartamento === true 
 );
 
-console.log(cliente.enderecos);
+
 
 console.log(listaApenasApartamentos);
