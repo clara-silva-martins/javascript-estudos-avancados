@@ -17,7 +17,5 @@ for (let chave in cliente) {
     let tipo =  typeof cliente[chave];
     if ( tipo !== 'object' && tipo != 'function' ){
     console.log(`A chave ${chave} tem o valor ${cliente[chave]} `);
-    } else {
-        
-    }
+    } 
 }
