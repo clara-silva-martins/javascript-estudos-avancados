@@ -42,3 +42,5 @@ const encomenda = {
 console.log(encomenda);
 
 //Com essa sintaxe de espalhamento fica apenas um objeto, não deixa fragmentado, um objeto, depois uma lista com um objeto, todos compõe o mesmo, ou seja ele pega todo o conteudo do objeto e espalha todos os seus valores na chamada do console.log
+
+//Vale notar que, caso a sintaxe de espalhamento seja usada em objetos que tenham chaves/propriedades com o mesmo nome, o JavaScript vai sobrescrever o valor destas propriedades à medida que encontra novos valores com o mesmo nome de chave
